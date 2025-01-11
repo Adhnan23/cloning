@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "clone",
   "module": "index.js",
   "type": "module",
   "devDependencies": {
