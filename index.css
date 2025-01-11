@@ -2,18 +2,22 @@
     margin: 0;
 }
 
-.footer-main {
+.footer-main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     background-color: #f8f9fa;
-    padding: 1.5rem;
-    text-align: center;
+    padding: 2rem 6rem;
+    gap: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 3.5rem;
+
 }
 
 .logo-section {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
 }
 
 .social-icons{
@@ -21,4 +25,99 @@
     gap: 1.5rem;
 }
 
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
 
+.connect{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    gap: 1rem;
+}
+
+.connect>h3{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgb(62, 84, 163);
+}
+
+.connect>p{
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: rgb(28, 32, 34);
+}
+
+.connect>input{
+    border: 1px solid #DBE5E6;
+    padding: 10px;
+    color: #1C2022;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 20px;
+    width: 55%;
+    flex-grow: 1;
+    height: 1.5rem;
+
+}
+
+.connect>button{
+    background-color: #ED2C49;
+    color: white;
+    border: 1px solid #ED2C49;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 900px;
+    width: 30%;
+    flex-grow: 1;
+}
+
+.connect>button:hover{
+    background-color: hsl(351, 84%, 45%);
+    border-color: hsl(351, 84%, 45%);
+    transition: all 0.5s;
+}
+
+
+.menu{
+    display: flex;
+    gap: 5rem;
+    width: 60%;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+.menu>span>h4{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 900;
+    color: rgb(28, 32, 34);
+    margin-bottom: 20px;
+}
+
+.menu>span>ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.menu>span>ul>li>a{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(115, 115, 115);
+    text-decoration: none;
+}
+.menu>span>ul>li>a:hover{
+    text-decoration:underline;
+}
